@@ -4,7 +4,7 @@ import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
 import './App.css';
 
 
-const greeterAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const greeterAddress = "0x1F83E575ce789079925942F0177852EaB4F71d86";
 
 const App = () => {
   const [greeting, setGreeting] = useState('');

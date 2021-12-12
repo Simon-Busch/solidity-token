@@ -27,8 +27,8 @@ module.exports = {
       chainId: 1337
     },
     rinkeby: {
-      url: process.env.INFURA_URL,
-      accounts:[process.env.ACCOUNT_PRIVATE]
+      url: process.env.REACT_APP_INFURA_URL,
+      accounts:[process.env.REACT_APP_ACCOUNT_PRIVATE]
     }
   }
 };
